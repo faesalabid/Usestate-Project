@@ -1,7 +1,7 @@
 
 
 .image-preview{
-    height: 428px;
+    height: 430px;
     width: 300px;
     border-radius: 0 20px 20px 0;
     box-shadow: 9px 9px 25px -1px #00000061;
@@ -9,8 +9,9 @@
 
 @media only screen and (max-width:600px){
     .image-preview{
-        height: 290px;
-        width:50%;
+        border-radius: 20px;
+        height: 380px;
+        width: 250px;
     }
 
 }
